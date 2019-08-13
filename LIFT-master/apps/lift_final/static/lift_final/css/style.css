@@ -1,0 +1,316 @@
+.navbar{
+    position: fixed;
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 100%;
+    border-radius: 7px;
+}
+.navbar-brand h2{
+    display: inline-block;
+    font-size: 31px;
+}
+.navbar-brand {
+    color: #F1671E;
+}
+.navbar button{
+    background-color: #F1671E;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    border-color: #F1671E;
+    width: 100px;
+}
+body{
+    background-image: url('../imgs/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1200px;
+}
+.home-page{
+    background-image: none;
+    background-color: #EDECEC;
+    height: 1200px;
+}
+.info-page{
+    background-image: url('../imgs/background_3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1200px;
+}
+.profile-page{
+    background-image: url('../imgs/background_4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1200px;
+ }
+.form-group{
+    display: inline-block;
+    width: 88.5%;
+    margin: auto;
+}
+.form-control{
+    display: block;
+    width: 70%;
+}
+.form-group label{
+    margin: 1%;
+    font-weight: bold;
+}
+.mid{
+    text-align: center;
+    min-width: 1000px;
+}
+.register-column{
+    height: auto;
+    width: 400px;
+    display: inline-block;
+    margin: 10px 0px 25px 10px;
+    border: 4px solid #F1671E;
+    padding: 10px;
+    color: #F1671E;
+    text-align: left;
+    font-size: 18px;
+}
+.register-column button {
+    display: block;
+    background-color: #F1671E;
+    color: white;
+    font-weight: bold;
+    margin-top: 3%;
+    border-color: #F1671E;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.register-column h2{
+    text-align: center;
+    font-weight: bolder;
+}
+.login-column{
+    height: auto;
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px 550px 0px 0px;
+    border: 4px solid #F1671E;
+    padding: 10px;
+    color: #F1671E;
+    text-align: left;
+    font-size: 18px;
+}
+.login-column button {
+    display: block;
+    background-color: #F1671E;
+    color: white;
+    font-weight: bold;
+    margin-top: 3%;
+    border-color: #F1671E;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.login-column h2{
+    text-align: center;
+    font-weight: bolder;
+}
+.success-message {
+    display: block;
+    margin: auto;
+    padding: 2% 0% 0% 2%;
+}
+.success-message h2{
+    text-align: center;
+    color: navajowhite;
+    text-decoration-line: underline;
+    font-weight: bolder;
+}
+a{
+    vertical-align: top;
+    font-size: 20px;
+    color: #F1671E;
+}
+.workouts li a{
+    vertical-align: top;
+    font-size: 20px;
+    color: #F1671E;
+}
+.messages{
+    margin: auto;
+    width: 60%;
+    padding: 5px;
+    text-align: center;
+    color: red;
+    border: 4px solid red;
+}
+.messages h5{
+    text-decoration: underline solid red;
+    font-size: 25px;
+}
+.info-column{
+    height: auto;
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+    border: 4px solid #F1671E;
+    padding: 10px;
+    color: #F1671E;
+    text-align: center;
+    font-size: 18px;
+}
+.info-column button {
+    display: block;
+    background-color: #F1671E;
+    color: white;
+    font-weight: bold;
+    margin-top: 3%;
+    border-color: #F1671E;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.info-column h2{
+    text-align: center;
+    font-weight: bolder;
+}
+.info-column form input{
+    text-align: center;
+}
+.info-column button{
+    text-align: center;
+}
+.ml-7,
+.mx-7 {
+    margin-left: 10.1rem !important;
+}
+.ml-6,
+.mx-6 {
+    margin-left: 3.9rem !important;
+}
+h1{
+    color: #F1671E;
+    border-style: solid;
+    border-color: #F1671E;
+}
+.middle{
+    text-align: center;
+    height: auto;
+    padding: 10px;
+}
+.workouts{
+    height: auto;
+    width: auto;
+    margin: 0 0 20px 0;
+}
+.workouts h1{
+    margin-bottom: 1.5%;
+}
+.workouts ul{
+    text-align: left;
+    font-size: 25px;
+    display: inline-block;
+    margin: 5px;
+}
+.workouts li {
+    text-align: center;
+    border: 3px solid #F1671E;
+    padding: 7px;
+    list-style-type: none;
+    margin: 5px;
+}
+.remove-button {
+    text-align: center;
+}
+.remove-button button{
+    background-color: #F1671E;
+    color: white;
+    font-weight: bold;
+    border-color: #F1671E;
+    font-size: 15px;
+    border-radius: 5px;
+    width: auto;
+}
+.schedule{
+    height: auto;
+    width: auto;
+}
+.schedule h1{
+    margin-bottom: 1.5%
+}
+
+.weight_img{
+    width: 472px;
+    height: 350px;
+}
+.cardio_img{
+    width: 472px;
+    height: 350px; 
+}
+.mixed_img{
+    width: 472px;
+    height: 350px; 
+}
+.table .thead-dark th{
+    background-color: #F1671E;
+    border: none;
+}
+.title_w{
+    position: fixed;
+    color: #F1671E;
+    margin: 0 0 0 177px;
+}
+.title_c{
+    position: fixed;
+    color: #F1671E;
+    margin: 0 0 0 193px;
+}
+.title_m{
+    position: fixed;
+    color: #F1671E;
+    margin: 0 0 0 188px;
+}
+a{
+    color:#F1671E;
+}
+.day-1 {
+    display: inline-block;
+    height: auto;
+    min-height: 300px;
+    width: 300px;
+    border: 5px solid #F1671E;
+    color: #F1671E;
+}
+.day-2 {
+    display: inline-block;
+    height: auto;
+    min-height: 300px;
+    width: 300px;
+    border: 5px solid #F1671E;
+    color: #F1671E;
+    margin-left: 1%;
+}
+.day-3 {
+    display: inline-block;
+    height: auto;
+    min-height: 300px;
+    width: 300px;
+    border: 5px solid #F1671E;
+    color: #F1671E;
+    margin-left: 1%;
+}
+.day-4 {
+    display: inline-block;
+    height: auto;
+    min-height: 300px;
+    width: 300px;
+    border: 5px solid #F1671E;
+    color: #F1671E;
+    margin-left: 1%;
+}
+.day-5 {
+    display: inline-block;
+    height: auto;
+    min-height: 300px;
+    width: 300px;
+    border: 5px solid #F1671E;
+    color: #F1671E;
+    margin-left: 1%;
+    margin-top: 1%;
+}

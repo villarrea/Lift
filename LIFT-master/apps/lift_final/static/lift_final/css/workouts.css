@@ -1,0 +1,77 @@
+body{
+    background-color: #EDECEC;
+    height: 1200px;
+    margin: auto;
+    width: auto;
+}
+.navbar{
+    position: fixed;
+    background-color: rgb(255, 255, 255, 0.8);
+    width: 100%;
+    border-radius: 7px;
+    font-size: 20px;
+}
+.navbar-brand h2{
+    display: inline-block;
+    font-size: 31px;
+}
+.navbar-brand {
+    color: #F1671E;
+}
+.navbar button{
+    background-color: #F1671E;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 18px;
+    border-color: #F1671E;
+    width: 100px;
+}
+.box{
+    width: 472px;
+    height: 500px;
+    display: inline-block;
+    margin: 0px 0 0px 3px;
+    vertical-align: top;
+}
+.weight_img{
+    width: 472px;
+    height: 350px; 
+    border: 5px solid #F1671E;
+}
+.cardio_img{
+    width: 472px;
+    height: 350px; 
+    border: 5px solid #F1671E;
+}
+.mixed_img{
+    width: 472px;
+    height: 350px; 
+    border: 5px solid #F1671E;
+}
+.table .thead-dark th{
+    background-color: #F1671E;
+    border: none;
+}
+.title_w{
+    color: #F1671E;
+    margin: 0 0 0 177px;
+}
+.title_c{
+    color: #F1671E;
+    margin: 0 0 0 193px;
+}
+.title_m{
+    color: #F1671E;
+    margin: 0 0 0 188px;
+}
+a{
+    color:#F1671E;
+}
+.box_container{
+    width: 2000px;
+    height: 1000px;
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto; 
+}

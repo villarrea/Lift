@@ -1,0 +1,328 @@
+[
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 1,
+        "fields" : {
+            "name" : "Dumbbell Press",
+            "description" : "Sit down on a flat bench with a dumbbell in each hand resting on top of your thighs. The palms of your hands will be facing each other. Then, use your thighs to help raise the dumbbells up, while laying down onto the bench. Hold both of the dumbbells up in front of you at shoulder width, and the palms of your hands should be facing forward. Bring your arms down and have your upper arm and forearm create a 90 degree angle. Once at a 90 degree angle, push the weights back up using your chest and repeat this motion for as many reps as needed.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "weight",
+            "workout_region": "chest",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 2,
+        "fields" : {
+            "name" : "Incline Dumbbell Press",
+            "description" : "Sit down on an inclined bench with a dumbbell in each hand resting on top of your thighs. The palms of your hands will be facing each other. Then, use your thighs to help raise the dumbbells up, while laying down onto the bench. Hold both of the dumbbells up in front of you at shoulder width, and the palms of your hands should be facing forward. Bring your arms down and have your upper arm and forearm create a 90 degree angle. Once at a 90 degree angle, push the weights back up using your chest and repeat this motion for as many reps as needed.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "weight",
+            "workout_region": "chest",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 3,
+        "fields" : {
+            "name" : "Decline Dumbbell Press",
+            "description" : "Sit down on a declined bench with a dumbbell in each hand resting on top of your thighs. The palms of your hands will be facing each other. Then, use your thighs to help raise the dumbbells up, while laying down onto the bench. Hold both of the dumbbells up in front of you at shoulder width, and the palms of your hands should be facing forward. Bring your arms down and have your upper arm and forearm create a 90 degree angle. Once at a 90 degree angle, push the weights back up using your chest and repeat this motion for as many reps as needed.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "weight",
+            "workout_region": "chest",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 4,
+        "fields" : {
+            "name" : "Kneeling One-Arm Row",
+            "description" : "Put your knee and hand on a bench and grab a dumbbell with your other hand. Flatten your back and lift the dumbbell straight up without moving anything else other than your arm and lower it back down after a short pause. Breathe out when raising the dumbbell and in when returning to starting position.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "weight",
+            "workout_region": "back",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 5,
+        "fields" : {
+            "name" : "Back Fly",
+            "description" : "Lie down on your chest on the bench and grab two dumbbells with your hands, elbows should be at 90 degree angles. Raise the dumbbells until your arms are parallel to the ground and lower them back after a short pause. Breathe out when pulling the dumbbells up and breathe in when lowering them back.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "weight",
+            "workout_region": "back",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 6,
+        "fields" : {
+            "name" : "Stiff Legged Deadlift",
+            "description" : "Stand up holding a dumbbell in each hand at your sides. Lower your upper body and have the dumbbells reach near your feet with your knees slightly bent. Raise your upper body for a short pause and then repeat for as many sets as needed. Try to keepy your arms straight throughout the exercise by keeing the same small arch in your elbows.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "weight",
+            "workout_region": "back",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 7,
+        "fields" : {
+            "name" : "Dumbbell Shoulder Press",
+            "description" : "Stand up and hold two dumbbells at shoulder level, palms facing each other. Push the dumbbells straight up until your elbows come close to locking and lower them back down after a short pause. Be careful NOT to jerk your back in an effort to help you raise the dumbbells becasue this can cause serious injury.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "weight",
+            "workout_region": "shoulders",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 8,
+        "fields" : {
+            "name" : "Side Raise",
+            "description" : "Stand up with a dumbbell in each hand at your sides. Raise both dumbbells sideways until your arms are parallel to the ground and lower them back down slowly after a short pause. Keep your back straight throughout the exercise.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "weight",
+            "workout_region": "shoulders",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 9,
+        "fields" : {
+            "name" : "Front Raise",
+            "description" : "Stand up with a dumbbell in each hand in front of your thighs, palms facing your body. Raise the dumbbells forward then up until your arms are close to being parallel to the ground and lower them back down after a short pause. Keep your arms extended and your back straight throughout the exercise.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "weight",
+            "workout_region": "shoulders",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 10,
+        "fields" : {
+            "name" : "Bicep Curl",
+            "description" : "Stand up and hold one dumbbell with each hand down the side of your body, palms facing each other. Raise both dumbbells until they reach your shoulders' height and slowly lower them back down after a short pause. Try NOT to jerk your upper body in an effort to help you lift the weights because this can cause serious injury.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "weight",
+            "workout_region": "arms",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 11,
+        "fields" : {
+            "name" : "Two-Arm Tricep Extension",
+            "description" : "Stand up and hold one dumbbell with both hands behind your head, upper arms pointing straight up. Raise the dumbbell up by curling your elbows and slowly lower it back after a short pause. Your upper arms should remain still throughout the exercise.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "weight",
+            "workout_region": "arms",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 12,
+        "fields" : {
+            "name" : "Reverse Lunge",
+            "description" : "Stand up and hold one dumbbell with each hand along the sides of your body, palms facing your body. Place a foot back and bend your knees in order to bring down your body until your knees form 90 degree angles and rasie yourself back up after a short pause. Keep your upper body steady throughout this exercise.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "weight",
+            "workout_region": "legs",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 13,
+        "fields" : {
+            "name" : "Dumbbell Squat",
+            "description" : "Stand up and hold one dumbbell with both hands in front of your thighs. Lower your body by bending your knees until they form a 90 degree angle and rasie yourself back up after a short pause. Keep your upper body steady throughout this exercise.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "weight",
+            "workout_region": "legs",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 14,
+        "fields" : {
+            "name" : "Side Lunge",
+            "description" : "Stnad up and hold one dumbbell in each hand against the sides of your body, palms facing your body. Take a wide step sideways so that your knee shows a 90 degree angle and slowly bring yourself back up after a short pause. Keep your back straight throughout this exercise.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "weight",
+            "workout_region": "legs",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 15,
+        "fields" : {
+            "name" : "High Intensity Training",
+            "description" : "On the treadmill decide what is your sprint speed and your walking speed. Do intervals of 15-30 seconds at your sprint speed and 45-60 seconds of your walk speed.",
+            "sets" : "10" ,
+            "reps" : "0" ,
+            "workout_type" : "cardio",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 16,
+        "fields" : {
+            "name" : "Jog at Medium Incline",
+            "description" : "Get on a treadmill and set the incline around 3%-5% and keep a consistent jog for as long as you can.",
+            "sets" : "0" ,
+            "reps" : "0" ,
+            "workout_type" : "cardio",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 17,
+        "fields" : {
+            "name" : "Speed-Walk at High Incline",
+            "description" : "Get on a treadmill and set the incline around 7%-9% and keep a consistent speed walk for as long as you can.",
+            "sets" : "0" ,
+            "reps" : "0" ,
+            "workout_type" : "cardio",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 18,
+        "fields" : {
+            "name" : "Stationary Bike",
+            "description" : "Get on a stationary bike and start pedaling. Adjust the resistance to a difficult level for you and bike for as long as you can.",
+            "sets" : "0" ,
+            "reps" : "0" ,
+            "workout_type" : "cardio",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 19,
+        "fields" : {
+            "name" : "Eliptical",
+            "description" : "Get on an eliptical machine and pedal forward for as long as you can to workout your quads and glutes. If you want to change it up and work your hamstrings and hip extensors, then pedal backwards for as long as your can.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "cardio",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 20,
+        "fields" : {
+            "name" : "Push Ups",
+            "description" : "Get on the floor on all fours, positioning your hands slightly wider than your shoulders. Extend your legs back so that you are balanced on your hands and toes. Keep your body in a straight line from head to toe without sagging in the middle or arching your back. Inhale as you slowly bend your elbows and lower yourself until your elbows are at a 90 degree angle. Exhale as you begin contracting your chest muscles and pushing back up through your hands to the start position. Keep elbows slightly bent at the starting position and keep a tight core throughout the entire pushup.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "mixed",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 21,
+        "fields" : {
+            "name" : "Jump Squats",
+            "description" : "Start by doing a regular squat, then engage your core and jump up explosively as high as you can. When you land, lower your body back into the squat position to complete one rep.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "mixed",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 22,
+        "fields" : {
+            "name" : "Jump Lunges",
+            "description" : "Stand with your feet together, elbows bent 90 degrees. Lunge forward with your right foot and jump straight up as you thrust your arms forward, elbows should remain bent. Switch legs in midair, like a scissor and land in a lunge with your left leg forward.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "mixed",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 23,
+        "fields" : {
+            "name" : "Dips",
+            "description" : "Position your hands shoulder-width apart on a secured bench. Slide your butt off the front of the bench with your legs extended out in front of you. Straighten your arms, keeping a little bend in your elbow to keep tenion on your triceps and off your elbow joints. Slowly bend your elbows to lower your body toward the floor until your elbows are at about a 90 degree angle. Be sure to keep your back close to the bench. Once you reach the bottom of the movement, press down into the bench to straighten your elbows, returning to the starting position.",
+            "sets" : "3" ,
+            "reps" : "10" ,
+            "workout_type" : "mixed",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    },
+    {
+        "model" : "lift_final.Workout",
+        "pk" : 24,
+        "fields" : {
+            "name" : "Chin Ups",
+            "description" : "Grab a pull-up bar with the palms facing your torso and a grip closer than your shoulder width. As you have both arms extended in front of you holding the bar a tthe chosen grip width, keep your torso as straight as possible while creating a curvatur on your lower bak and sticking your chest out. This is the starting position. As you breathe out, pull up your torso up until your head is around the level of the pull up bar. Concentrate on using the biceps muscles in order to perform the movement. Keep elbows close to your body. After a second of squeezing your biceps in the contracted position, slowly lower your torso back to the starting position; where your arms are fully extended.",
+            "sets" : "3" ,
+            "reps" : "5" ,
+            "workout_type" : "mixed",
+            "created_at" : "2018-07-29 09:17:13.812189",
+            "updated_at" : "2018-07-29 09:17:13.812189"
+        }
+    }
+]

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Workout Info</title>
+    {% load static %}
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'lift_final/css/workout_info.css' %}">
+</head>
+<body>
+    <div class="nav">
+        <nav class="navbar navbar-expand-xl navbar-light bg-lightgrey" data-spy="affix" data-offset-top="197">
+            <img src= "../../static/lift_final/imgs/lift_main_icon.png" width="33" height="30" class="navbar-brand p-0 m-0 mb-1" alt=""> <h2 class="mt-1 mr-3 text-center" style="font-size: 31px">LIFT</h2>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="/home">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/workouts">Workouts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/{{user.id}}/profile">Profile</a>
+                    </li>
+                </ul>
+            </div>
+            <form action="/log_out" method="POST">
+                {% csrf_token %}
+                <input type="hidden">
+                <button type="submit" class="btn btn-primary btn-sm">Log Out</button>
+            </form>
+        </nav>
+    </div>
+    <br><br><br>
+    <div class="info">
+        <h1>{{workout.name}}</h1><br>
+        <h3>{{workout.description}}</h3><br>
+        {% if workout.reps > 0 %}
+        <h4 style="font-weight: bold;">Recommended Reps: {{workout.reps}}</h4>
+        {% endif %}
+        {% if workout.sets > 0 %}
+        <h4 style="font-weight: bold;">Recommended Sets: {{workout.sets}}</h4>
+        {% endif %}
+        <br>
+        {% if workout not in user_workouts %}
+        <div class="workout-info-buttons">
+            <form action="/{{workout.id}}/my_workout" method="POST">
+                {% csrf_token %}
+                <input type="hidden">
+                <button type="submit" class="btn btn-primary btn-sm">Add To My List</button>
+            </form>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
